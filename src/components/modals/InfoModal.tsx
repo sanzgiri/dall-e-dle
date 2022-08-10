@@ -59,8 +59,8 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        Created by <a href="mailto:sanzgiri@gmail.com">Ashutosh Sanzgiri</a>
-        based on an <a href="https://github.com/cwackerfuss/react-wordle"> open source version </a>
+        Created by <a href="mailto:sanzgiri@gmail.com" className="underline font-bold">Ashutosh Sanzgiri </a>
+        based on an <a href="https://github.com/cwackerfuss/react-wordle" className="underline font-bold"> open source version </a>
         of the popular word guessing game. Check out the DALL-e-dle code
         <a
           href="https://github.com/sanzgiri/dall-e-dle"
