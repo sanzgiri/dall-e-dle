@@ -10,8 +10,9 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word.
+        This is "DALL-E meets wordle". For the word you are guessing, you are provided a DALL-E generated image
+        using that word as a prompt. To offset this advantage, you only have 4 tries. All other rules are the same.
+        One more hint - all words to guess are English verbs. Be careful, the image could ne misleading :-)
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -61,7 +62,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         This is an open source version of the word guessing game we all know and
         love -{' '}
         <a
-          href="https://github.com/cwackerfuss/react-wordle"
+          href="https://github.com/sanzgiri/dall-e-dle"
           className="underline font-bold"
         >
           check out the code here
